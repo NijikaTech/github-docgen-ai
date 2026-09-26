@@ -1,0 +1,23 @@
+github:
+  max_files_to_read: 15
+  ignored_extensions:
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+    - ".svg"
+    - ".lock"
+    - ".min.js"
+    - ".min.css"
+  ignored_directories:
+    - ".git"
+    - "node_modules"
+    - "venv"
+    - "myenv"
+    - "__pycache__"
+    - "dist"
+    - "build"
+
+llm:
+  provider: "ollama"
+  model: "qwen2.5-coder:7b"
+  base_url: "http://localhost:11434"
